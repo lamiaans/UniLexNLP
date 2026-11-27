@@ -15,9 +15,9 @@ The 16 concepts are Overfitting, Underfitting, Regularization, Dropout, Cross-va
 
 Both methods were tested on the same 48 questions.
 
-Method	Accuracy	Macro F1
-TF-IDF + LR	0.917	0.915
-SBERT + LR	0.979	0.979
+Method	      Accuracy	 Macro F1
+TF-IDF + LR	    0.917	    0.915
+SBERT + LR	    0.979   	0.979
 
 SBERT did better (1 mistake vs 4). But the test set is small (3 questions per concept), so we can't say it is clearly better. More details are in the notebook.
 
