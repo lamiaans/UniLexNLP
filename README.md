@@ -39,9 +39,10 @@ In Google Colab:
 3. Click Runtime, then "Restart session and run all". It takes around 2 minutes.
 
 On your own computer:
-pip install -r requirements.txt
-jupyter notebook UniLex_Comparison_CSV.ipynb
-
+```
+      pip install -r requirements.txt
+      jupyter notebook UniLex_Comparison_CSV.ipynb
+```
 Keep the two csv files in the same folder as the notebook.
 
 ## Try it
