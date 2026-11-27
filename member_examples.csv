@@ -1,0 +1,9 @@
+member,query,concept,date_added
+Sara Almousa,Why does my machine learning model perform poorly on both the training data and new data?,Underfitting,2026-11-26
+Sara Almousa,"Why do we remove common words like ""the"" and ""is"" when processing text?",Stop Word,2026-11-26
+Lamya Alansari,"Is it fair to judge my model on just one random slice of the data, or should I rotate which part I keep aside for testing?",Cross-validation,2026-11-26
+Lamya Alansari,Can I teach a model to recognise my cat's breed by borrowing a network that already knows thousands of everyday objects?,Transfer Learning,2026-11-26
+Samar Alyami,what table shows which emails my spam filter got wrong,Confusion Matrix,2026-11-27
+Samar Alyami,why does a short Arabic sentence use so many tokens,Tokenization,2026-11-27
+Tala Alghamdi,Why does gradient descent need to calculate the gradient again after updating the weights?,Gradient Descent,2026-11-27
+Tala Alghamdi,Can using different learning rates for different layers help a neural network learn better?,Learning Rate,2026-11-27
