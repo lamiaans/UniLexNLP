@@ -13,3 +13,7 @@ Cleaning: we checked empty questions, duplicate ids and questions, and conflicti
 Split (seed 42): test = last 3 Stack Exchange questions per concept (48), dev = 3 random per concept (48), train = the rest (223, after leaving out SE026, which was too similar to a test question).
 
 Limits: Stack Exchange authors are not confirmed students, some titles don't name the concept, the AI-assisted questions may sound too similar, and the test set is small.
+
+Why we used AI-assisted questions? real Stack Exchange titles are mostly written by experienced users in a technical way. Although, many students ask AI tools in casual, everyday language, so we used Claude to draft questions in that style and to have enough training examples for each concept. We checked them as a team and carefully reviewed them. 
+
+AI-assisted questions are only an approximation of student wording. That is why the test set uses only real Stack Exchange questions.
