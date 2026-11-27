@@ -1,4 +1,4 @@
-About
+## About
 
 UniLex is our student-friendly dictionary for AI and CS terms. For this course we test one part of it: when a student asks a question in their own words, can the system tell which concept they mean?
 
