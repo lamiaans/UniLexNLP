@@ -39,3 +39,26 @@ In Google Colab:
 3. Click Runtime, then "Restart session and run all". It takes around 2 minutes.
 
 On your own computer:
+pip install -r requirements.txt
+jupyter notebook UniLex_Comparison_CSV.ipynb
+
+Keep the two csv files in the same folder as the notebook.
+
+## Try it
+The "Try it" section has a function `try_it("your question")`. It shows what both models predict, without training again. If you give it an empty text it tells you to enter a question.
+
+## Data
+- 80 questions are real titles from Stack Exchange (Data Science, Cross Validated, Stack Overflow, AI). Links and authors are in the csv.
+- 240 questions were written with Claude's help and checked by our team.
+
+Split: train 223, dev 48, test 48, plus 1 near-duplicate question that we left out of training. The test set only uses the real Stack Exchange questions (3 per concept). The dev set is all AI-assisted questions. Train, dev and test do not share any questions. We picked the settings (C) on the dev set only, seed = 42.
+
+## Credits
+- Stack Exchange questions (CC BY-SA)
+- Sentence-BERT paper: Reimers and Gurevych, 2019
+- BERT paper: Devlin et al., 2019
+- scikit-learn and the sentence-transformers library
+- Claude (Anthropic) helped write the AI-assisted questions
+
+## Team
+Sara Mousa Almousa (leader), Tala Abdullah Alghamdi, Lamya Khalid Alansari, Samar Ali Alyami
